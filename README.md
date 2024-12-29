@@ -1,5 +1,8 @@
 # 仿写一个auto-animate
 
+视频教程: https://www.bilibili.com/list/476962702
+
+
 [auto-animate](https://auto-animate.formkit.com/)可以自动给所配置元素的直接子元素的新增、删除、移动加上动画，使用非常简便，下面是如何仿写一个简单的此库
 
 ## 思路
