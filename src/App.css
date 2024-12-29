@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #020917, #101725);
+}
+
+.content {
+  /* display: flex; */
+  /* flex自适应居中布局会出现跳变的情况，这种暂时没办法解决，auto-animate库提到了这个问题 */
+  display: block;
+  min-height: 100vh;
+  line-height: 1.1;
+  width: 20vw;
+  text-align: center;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 16px;
+  border: 1px solid #fff;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75em;
+  background-color: lavender;
+  margin-bottom: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.3em;
+  background-color: #4a4a4a;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #363636;
+}
